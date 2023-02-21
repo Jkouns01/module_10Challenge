@@ -8,3 +8,10 @@ test('github account',()=>{
     const employeeAccount= new Engineer(3, 'charlie', 'codingcharlie@email.com', hubTest)//then
     expect(employeeAccount.hubTest()).toBe(hubTest)
 })
+ // enployment type
+test("employement testing", () =>
+{
+    const jobType= "Engineer"
+    const employeeAccount= new Engineer(3, 'charlie', 'codingcharlie@email.com', hubTest) // then
+    expect(employeeAccount.jobType()).toBe(jobType)
+})
