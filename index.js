@@ -41,7 +41,7 @@ function launch() {
         },
         {
             type: 'input',
-            message: 'Please end=ter ID',
+            message: 'Please enter ID',
             name: 'managerId'
         },
         {
