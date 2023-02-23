@@ -1,4 +1,4 @@
-const Employee = require('./lib/Employee');
+const Employee = require('../lib/Employee');
 //can it creat a new employee
 //requirements include a personal id number, name, type of employee,  and contact info
 // does each part of the employee tab work?
