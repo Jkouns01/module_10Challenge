@@ -55,15 +55,15 @@ function launch() {
             name: 'managerOfficeNumber'
         }
         ])
-        .then(function(responses){
-            console.log(responses)
-            //run manager custructor
-            //push new manager into team array
-            nextQuestion()
-            // call funstion asking user what they want to do next
-        })
+            .then(function (responses) {
+                console.log(responses)
+                //run manager custructor
+                //push new manager into team array
+                nextQuestion()
+                // call funstion asking user what they want to do next
+            })
     }
-    function nextQuestion(){
+    function nextQuestion() {
         function employeePrompt() {
             inquirer.prompt([{
                 type: 'list',
@@ -87,7 +87,7 @@ function launch() {
                             console.log('finished')
                             break;
                     }
-    
+
                 })
         }
     }

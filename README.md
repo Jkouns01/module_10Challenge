@@ -21,3 +21,10 @@ WHEN I select the intern option <br>
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu <br>
 WHEN I decide to finish building my team <br>
 THEN I exit the application, and the HTML is generated </p>
+
+<h2> What Did I learn<h2>
+<p> I learned how to run the test efficently, and write some promps as well as organize and connect several different files to effectively communicate. This challenge was a handful and I am happy with the progress I have made.
+<br>
+<p> I honestly really struggled with the index.js file and the reason I am submitting it as is, is because I am not sure where to go from here. I want to finish this in the future but I want to at least meet the deadline to get some sort of critisism.</p>
+
+<h2> 
